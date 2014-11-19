@@ -23,24 +23,24 @@ The Heartbleed bug is a serious security threat to our website. A malicious enti
 Heartbleed is negatively impacting websites across the internet, and we want to take action to prevent ours from being part of this. We can fix it by upgrading our version of SSL, and this will protect us from damages both legal and financial.
 
 Executive Summary V
--------------------
-* Purpose/Goal
-  * Update security information
-  * Update Software
-* Findings
-  * Security risks
+--------------------
+
+Heartbleed is an SSL exploit that hacker can use to obtain proprietary information from websites.
+
+* Possible Problems
   * Certificate theft
   * User information leaks
-  * Website can be duplicated
+Hackers may have obtained a copy of our security certificate meaning they may be able to duplicate our website to trick clients.  They also may have obtained our users’ information.  
+
 * Recommendation
+  * Update security information
   * Update client information
-  * Update Software to remedy Heartbleed bug
-  * Update anything that uses SSL
-  * Reevaluate website certificate
-  * Reestablish the website’s key
+  * Update Software 
+We’ll need to update our security information and web certificate in case they were obtained by hackers.  We should also alert all users that their information may have been compromised, and that they should update this information.  We must also upgrade to the latest version of SSL to prevent future security risks.
+
 * Conclusion
-  * Poor programming practices led to security risks amongst modern hacking society.
-  * Isure security and authenticity of the website,reevaluating for the Heartbleed bug.
+Poor programming practices led to security risks amongst modern hacking society.  This has affected nearly all websites.  The course of action outlined in this summery will insure security and authenticity of the website, reevaluating for the Heartbleed bug.
+
 
 Executive Summary VI
 --------------------
