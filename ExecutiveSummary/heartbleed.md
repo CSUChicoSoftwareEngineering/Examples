@@ -4,7 +4,9 @@ Heartbleed
 
 Executive Summary I
 -------------------
-Together, as a team, the four of us have looked into the impact of the Heartbleed vulnerability on our systems. Heartbleed is a vulnerability caused by poorly written security code in OpenSSL (a highly used security library). It leaks information to the attacker. We have patched our servers so that they are no longer vulnerable. We now use LibreSSL instead of OpenSSL, which has none of the vulnerabilities.
+Together our security team has looked into the impact of the Heartbleed vulnerability. This vulnerability, which allows an attacker to gain access to vital system information, is caused by a bug in OpenSSL. We heavily use OpenSSL across many of our systems for secure authentication, so it is with utmost importance that we fix this issue.
+
+Since then we have updated our servers to use LibreSSL instead of OpenSSL. This simple update removes all vulnerabilities related to Heartbleed and allows us to continue running securely. We will monitor the fallout from this vulnerability and continue to provide updates.
 
 Executive Summary II
 --------------------
@@ -18,29 +20,29 @@ If the site is using Open SSL service, then we need to patch the whole that hear
 
 Executive Summary IV
 --------------------
-The Heartbleed bug is a serious security threat to our website. A malicious entity could easily get the certificates to our website and use them to misrepresent us. This is a huge legal and business problem since we could potentially be liable for the security flaw and lose business in the process. I recommend we fix our website by upgrading our servers to the new version of SSL. This will protect us from this bug and ensure we do not get hacked. In the meantime it would be wise to alert our users and look into shutting the website down until it is upgraded to prevent any attacks.
+The Heartbleed bug is a serious security threat to our website. A malicious entity could easily get the certificates to our website and use them to misrepresent us. This is a huge legal and business problem since we could potentially be liable for the security flaw and lose business in the process. I recommend we fix our website by upgrading our servers to the new version of OpenSSL. This will ensure that hackers can't steal sensitive information from the server using this vulnerability. We will examine the server logs to determine if bug has been exploited, and notify our users if it has.
 
-Heartbleed is negatively impacting websites across the internet, and we want to take action to prevent ours from being part of this. We can fix it by upgrading our version of SSL, and this will protect us from damages both legal and financial.
+Heartbleed is security flaw in OpenSSL, a piece of software used by many websites, including large sites like Facebook and Google. We need to take action to secure our web server. We can fix it by upgrading our version of OpenSSL. This will protect us from damages both legal and financial. We will also need to request a new SSL certificate, and then require users to change their passwords after the site is secured.
 
 Executive Summary V
--------------------
-* Purpose/Goal
-  * Update security information
-  * Update Software
-* Findings
-  * Security risks
+--------------------
+
+Heartbleed is an SSL exploit that hacker can use to obtain proprietary information from websites.
+
+* Possible Problems
   * Certificate theft
   * User information leaks
-  * Website can be duplicated
+Hackers may have obtained a copy of our security certificate meaning they may be able to duplicate our website to trick clients.  They also may have obtained our users’ information.  
+
 * Recommendation
+  * Update security information
   * Update client information
-  * Update Software to remedy Heartbleed bug
-  * Update anything that uses SSL
-  * Reevaluate website certificate
-  * Reestablish the website’s key
+  * Update Software 
+We’ll need to update our security information and web certificate in case they were obtained by hackers.  We should also alert all users that their information may have been compromised, and that they should update this information.  We must also upgrade to the latest version of SSL to prevent future security risks.
+
 * Conclusion
-  * Poor programming practices led to security risks amongst modern hacking society.
-  * Isure security and authenticity of the website,reevaluating for the Heartbleed bug.
+Poor programming practices led to security risks amongst modern hacking society.  This has affected nearly all websites.  The course of action outlined in this summery will insure security and authenticity of the website, reevaluating for the Heartbleed bug.
+
 
 Executive Summary VI
 --------------------
