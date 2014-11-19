@@ -14,10 +14,10 @@ In conclusion it is apparent that our company’s agile method of development is
 
 Executive Summary II
 --------------------
-Here at Start-Up Company, Inc. we pride ourselves in developing rich, secure web applications.  In the Health Care industry there has been a push to provide online marketplaces for customers to choose the best plan for them.  The security risk that go along with providing this service is large, but we have the necessary experience with this front.  After the failed roll out of ObamaCare, there has been increased awareness in the field, regarding the reasons the ObamaCare website did not work. We have the answers.
+In the Health Care industry there has been a push to provide online marketplaces for customers to choose the best plan for them. The security risk that accompanies this service is substancial.  After the troubles with the ObamaCare release, there has been increased awareness in the field regarding website development. We have the answers.
 
-Firstly, the ObamaCare web developers were using a horribly executed waterfall method of development.  We use an Agile framework to develop applications, which results in quicker turn around time for bugs that pop up, and faster response to changing requirements.
+Firstly, the ObamaCare web developers were using a  waterfall method of development, which doesn't allow for quick revisions. Instead we use an Agile framework to develop applications, which results in not only a quicker turn around time for locating and fixing bugs, but also a faster response time to any requirement changes.
 
-Another reason we are superior to the ObamaCare developers is that we understand the importance of a controlled roll out. Without the politicians breathing down our necks, we are able to provide a much cleaner, robust application in a controlled manner, which leads to less costly mistakes.
+Another reason we will not fall into the same traps as the ObamaCare developers is that we understand the importance of a controlled release. We are able to provide a much cleaner, robust application in a controlled manner, which leads to less costly mistakes.
 
-You can feel safe knowing that Start-Up Company, Inc has a robust team of developers that work together with clients to provide the most bang for your buck, with security a number one concern.
+You can feel safe knowing that Start-Up Company, Inc has a experienced team of developers that work together with clients to provide the best service, with security as a number one concern.
