@@ -18,9 +18,9 @@ If the site is using Open SSL service, then we need to patch the whole that hear
 
 Executive Summary IV
 --------------------
-The Heartbleed bug is a serious security threat to our website. A malicious entity could easily get the certificates to our website and use them to misrepresent us. This is a huge legal and business problem since we could potentially be liable for the security flaw and lose business in the process. I recommend we fix our website by upgrading our servers to the new version of SSL. This will protect us from this bug and ensure we do not get hacked. In the meantime it would be wise to alert our users and look into shutting the website down until it is upgraded to prevent any attacks.
+The Heartbleed bug is a serious security threat to our website. A malicious entity could easily get the certificates to our website and use them to misrepresent us. This is a huge legal and business problem since we could potentially be liable for the security flaw and lose business in the process. I recommend we fix our website by upgrading our servers to the new version of OpenSSL. This will ensure that hackers can't steal sensitive information from the server using this vulnerability. We will examine the server logs to determine if bug has been exploited, and notify our users if it has.
 
-Heartbleed is negatively impacting websites across the internet, and we want to take action to prevent ours from being part of this. We can fix it by upgrading our version of SSL, and this will protect us from damages both legal and financial.
+Heartbleed is security flaw in OpenSSL, a piece of software used by many websites, including large sites like Facebook and Google. We need to take action to secure our web server. We can fix it by upgrading our version of OpenSSL. This will protect us from damages both legal and financial. We will also need to request a new SSL certificate, and then require users to change their passwords after the site is secured.
 
 Executive Summary V
 -------------------
