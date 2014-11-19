@@ -14,7 +14,11 @@ Common Vulnerabilities + Exploits, or CVE for short, catalog exploits from aroun
 
 Executive Summary III
 ---------------------
-If the site is using Open SSL service, then we need to patch the whole that heartbleed makes, and change our security keys and passwords. Otherwise you don’t have to do anything. We will do a quick fix that will patch the major vulnerabilities to protect the site certificate. If we do have to change the security keys, it will take customers longer to get into the site, because they have to update the security keys.
+/* Update authors: Sterling Baldwin, Sumit Dorle, Sebastien Hutt, Darren Reitan
+*
+*
+*/
+Because our application is using Open SSL service, our sites security keys may have been leaked to an attacker. We need to update our security to patch the hole that heartbleed has made. Additionally we will need to change our security keys and passwords. The patch is a quick fix, which will protect the sites certificates from further attacks. Because we are changing the keys, customers will need to update their local copies, which will cause a minor inconveniance, but it is crititally important to protect our application.
 
 Executive Summary IV
 --------------------
