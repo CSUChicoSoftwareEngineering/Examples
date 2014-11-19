@@ -46,22 +46,31 @@ Executive Summary VI
 --------------------
 **Purpose of Study**
 
-The need for secure, encrypted data communication across the internet is vital for users and businesses alike. To be able to handle user accounts, payment information, and privacy, all security measures must be taken and tested to ensure their proper functionality.
+The Heartbleed bug opens up vulnerabilities that allows sensitive information to be accessed by hackers through OpenSSL certificates.
+With the services our website provides, it is crucial to check our security implementations and verify that all data is safe and secure.
 
-With the recent discovery of the Heartbleed bug, the concern for the aforementioned variables has increased greatly. With the services our website provides, it is crucial to check our security implementations and verify that all data is safe and secure.
+**Findings**
 
-**Findings and General Recommendations**
+There is no way of knowing if or how much data was compromised due to the Heartbleed bug.
+However, we determined that our website was vulnerable to the Heartbleed bug, and therefore issued emails to all users to change their passwords in case they were stolen, as well as update their account security (i.e. security questions).
+Additionally there is no method of calculating the cost of damages.
 
-We determined that our website was vulnerable to the Heartbleed bug, and therefore issued emails to all users to change their passwords in case they were stolen, as well as update their account security (i.e. security questions).
+To prevent future exploitations we recommend the following actions be taken:
 
-We recommend implementing two-factor authentication for all users, as another measure of trying to protect data and block any nefarious actions by unknown parties. Also, on our end, we need to update our website security certificates.
+**Recommendations**
 
-**Key Recommendation**
+----Mandatory----
+Update our website security certificates by updating OpenSSL.
 
-All users must be contacted via emailed and asked to change their account passwords and
-update other security information. The best plan for a user to insure their privacy of data is:
-  * Change their passwords, update their account details.
-  * Add two factor authentication
+All users must be contacted via emailed and asked to change their account passwords and update other security information. 
+Require users to change their passwords upon next logon.
+
+----Suggested----
+Implementing two-factor authentication for all users, as another measure of trying to protect data and block any nefarious actions by unknown parties.
+The best plan for a user to insure their privacy of data is:
+  * Update their account details.
   * Clear all security certificates so that they may be replaced with new, secure ones
+
+
 
 On our end, we should verify all security measures and test our certificates and user – database interactions for any potential security issues.
