@@ -8,9 +8,9 @@ Together, as a team, the four of us have looked into the impact of the Heartblee
 
 Executive Summary II
 --------------------
-The Heartbleed bug aﬀects a vast amount of web servers, which in turn aﬀect all of the users of these servers. Speciﬁcally, it is a bug found in the OpenSSL library that is treated as an industry standard; in other words, it is used almost everywhere. We must be sure to take the necessary precautions against this bug, and follow the prescribed remedies.
+The Heartbleed bug aﬀects a vast amount of web servers, which in turﬀect all of the users of these servers. This could become a potentiallay dangerous threat if left unchecked could result in a leak in our clients information, which will damage our clients trust and heavily impact our profits. The bug is part of the industry standard OpenSSL library. We must be sure to take the necessary precautions against this bug, and follow the prescribed remedies.
 
-Common Vulnerabilities + Exploits, or CVE for short, catalog exploits from around the world and oﬀer ﬁxes. For this speciﬁc vulnerability, the ﬁx is simple; update OpenSSL to the latest version, and the vulnerability will be gone. System administrators have reported that updating OpenSSL will not aﬀect day-to-day server operations, so it is a simple process that will result in minimal downtime.
+I would recommend that we update OpenSSL to the latest version to eliminate the vulnerability. System administrators have reported that updating OpenSSL will not aﬀect day-to-day server operations, so it is a simple process that will result in minimal downtime.
 
 Executive Summary III
 ---------------------
