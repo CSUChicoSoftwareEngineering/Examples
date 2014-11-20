@@ -60,12 +60,14 @@ To prevent future exploitations we recommend the following actions be taken:
 **Recommendations**
 
 * Mandatory:
+
 Update our website security certificates by updating OpenSSL.
 
 All users must be contacted via emailed and asked to change their account passwords and update other security information. 
 Require users to change their passwords upon next logon.
 
 * Suggested:
+
 Implementing two-factor authentication for all users, as another measure of trying to protect data and block any nefarious actions by unknown parties.
 The best plan for a user to insure their privacy of data is:
   * Update their account details.
